@@ -626,7 +626,9 @@ body{
     /*---SERVICE SECTION____---*/
 
     /*_____REFERENCE SECTION______*/
-
+    .reference-card:nth-child(2){
+        margin: 20px 0;
+    }
     .reference-card-overlay{
         top: 20px ;
         bottom: 20px;
@@ -644,9 +646,12 @@ body{
     /*_____REFERENCE SECTION______*/
 
     /*___PARTNER SECTION _____*/
+    .partner-showcase{
+        grid-template-columns: 1fr 1fr;
+    }
     .partner-showcase img{
-        display: none;
-        width: 100px;
+
+        width: 90px;
     }
     /*___PARTNER SECTION _____*/
 
