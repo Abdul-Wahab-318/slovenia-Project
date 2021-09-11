@@ -189,6 +189,9 @@ body{
 .branch-inner-caption{ /*LEFT SIDE OF TREE*/
     padding-right: 35%;
 }
+.branch-inner-cta img{
+    width: 50px;
+}
 .services-tree .service-branch:last-child{/*RIGHT SIDE OF TREE*/
     padding-top: 100px;
 }
@@ -453,6 +456,9 @@ body{
     .cta-illustration img:nth-child(2){
         left: 79%;
     }
+    .cta-illustration img:last-child{
+        width: 40%;
+    }
     /*---___HERO SECTION____---*/
 
     /*---SERVICE SECTION____---*/
@@ -612,8 +618,11 @@ body{
     .services-tree .service-branch:first-child .service-branch-inner:first-child .node{
         top: -5px;
     }
+    .services-tree .service-branch:last-child .service-branch-inner:first-child .node{
+        top: -5px;
+    }
     .services-tree .service-branch:last-child .service-branch-inner .node{
-        top: 50%;
+        top: 0%;
         left: -1px;
     }
     .node {
